@@ -25,3 +25,40 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Calculations for responsiveness
+Regra de 3
+    1200px = 29,7cm
+    x       =   1cm
+    x = 40,40px
+
+    width 1200px
+    height 824px
+
+Layout
+    width 28cm = 1.132,2px = 100%
+    height 20,39cm = 824px = 100%
+
+container__menu-title
+    width 1200px
+    height 145px
+    font-size 80px = %
+    margin = 15px top and bottom
+
+Header 
+    menu width 6,5cm =
+    font size 0,5cm = 
+
+Big card
+Photo size
+    width 10cm = 
+    height 5cm = 
+
+Small card
+Photo size
+    width 5cm = 
+    height 3cm = 
+    margin = 0px 20px 0px 0px
+
+Container__articles
+    margin-top = 30px
