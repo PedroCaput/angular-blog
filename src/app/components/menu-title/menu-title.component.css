@@ -3,15 +3,80 @@
 }
 
 .container__menu-title > h1{
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 135px;
   font-family: 'segoe UI';
   display: flex;
   justify-content: center;
 }
 
-.container__menu-title > hr{
-  margin-top: 20px;
-  margin-bottom: 5px;
+@media screen and (min-width: 360px) {
+  /* Trocar o formato para listar big card, 3 small cards de cima para baixo */
+  /* 360 x 640 mobile */
+  .container__menu-title > h1{
+    margin-top: 4.5px;
+    margin-bottom: 4.5px;
+    font-size: 24px;
+  }
+  
+  .container__menu-title > hr{
+    margin-top: 6px;
+    margin-bottom: 1.5px;
+  }  
+}
+
+@media screen and (min-width: 720px) {
+  /* Trocar o formato para listar big card, 3 small cards de cima para baixo */
+  /* 720 x 1280 mobile */
+  .container__menu-title > h1{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 33px;
+  }
+  
+  .container__menu-title > hr{
+    margin-top: 8px;
+    margin-bottom: 2px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* 768 x 576 */
+  .container__menu-title > h1{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 45px;
+  }
+  
+  .container__menu-title > hr{
+    margin-top: 11px;
+    margin-bottom: 3px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* 1024 x 600 */
+  .container__menu-title > h1{
+    margin-top: 11px;
+    margin-bottom: 11px;
+    font-size: 60px;
+  }
+  
+  .container__menu-title > hr{
+    margin-top: 15px;
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (min-width: 1366px){
+    /* 1366 x 768 */
+    
+    .container__menu-title > h1{
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 80px;
+    }
+    
+    .container__menu-title > hr{
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
 }

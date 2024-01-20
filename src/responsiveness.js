@@ -57,7 +57,7 @@ const small_card = {
 const container__menu_title = {
     name: "container__menu-title",
     width: 1366,
-    height: 145
+    height: 80
 }
 
 const header = {
@@ -65,9 +65,9 @@ const header = {
     width: 1366,
     height: 21
 }
-
-convertInPercentuals(header.name, minHeight5, header.height, "layout Principal");
-convertInPercentuals(header.name, minWidth5, header.width, "layout Principal");
+/*
+convertInPercentuals(header.name, minHeight5, header.width, "layout Principal");
+convertInPercentuals(header.name, minWidth5, header.height, "layout Principal");
 console.log("-----------------");
 convertInPercentuals(container__menu_title.name, minWidth5, container__menu_title.width, "layout Principal");
 convertInPercentuals(container__menu_title.name, minHeight5, container__menu_title.height, "layout Principal");
@@ -90,10 +90,49 @@ console.log("-----------------");
 convertInPercentuals(container__articles.name, minWidth5, container__articles.width, "layout Principal");
 convertInPercentuals(container__articles.name, minHeight5, container__articles.height, "layout Principal");
 
+console.log("-----------------");
+convertToProportion();
+convertToProportion();
+*/
+function convertToProportion(pixelOpcao, pixelTelaVelha, pixelTelaNova){
+    valueConverted = (pixelOpcao * pixelTelaNova) / pixelTelaVelha;
+    console.log(pixelOpcao + "px é igual a " + valueConverted.toFixed(2) + " proporcionalmente em relação a " + pixelTelaVelha + "px")
+}
+
+console.log("----------------- CONVERSÃO EM PIXELS -----------------");
+console.log("tela 1366 para tela 1024")
+convertToProportion(15, 1366, 1024);
+convertToProportion(80, 1366, 1024);
+convertToProportion(20, 1366, 1024);
+convertToProportion(5, 1366, 1024);
+
+console.log("* * * * *");
+
+console.log("tela 1024 para tela 768")
+convertToProportion(11, 1366, 1024);
+convertToProportion(60, 1366, 1024);
+convertToProportion(15, 1366, 1024);
+convertToProportion(4, 1366, 1024);
+
+console.log("* * * * *");
+
+console.log("tela 768 para tela 720")
+convertToProportion(8, 1366, 1024);
+convertToProportion(45, 1366, 1024);
+convertToProportion(11, 1366, 1024);
+convertToProportion(3, 1366, 1024);
+
+console.log("* * * * *");
+
+console.log("tela 720 para tela 360")
+convertToProportion(6, 1366, 1024);
+convertToProportion(33, 1366, 1024);
+convertToProportion(8, 1366, 1024);
+convertToProportion(2, 1366, 1024);
 /*
 
-header: 21px é igual a 2.73% de 768px. Que é do layout Principal
 header: 1366px é igual a 100.00% de 1366px. Que é do layout Principal
+header: 21px é igual a 2.73% de 768px. Que é do layout Principal
 
 -----------------
 

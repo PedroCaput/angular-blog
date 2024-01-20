@@ -20,16 +20,28 @@ a{
 @media screen and (min-width: 720px) {
   /* Trocar o formato para listar big card, 3 small cards de cima para baixo */
   /* 720 x 1280 mobile */
+  .container__menu-title > h1{
+    color: green;
+  }
 }
 
 @media screen and (min-width: 768px) {
   /* 768 x 576 */
+  .container__menu-title > h1{
+    color: yellow;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   /* 1024 x 600 */
+  .container__menu-title > h1{
+    color: blue;
+  }
 }
 
-@media screen and (min-width: 1366px)(
-  /* 1366 x 768 */
-)
+@media screen and (min-width: 1366px){
+    /* 1366 x 768 */
+    .container__menu-title > h1{
+      color: red;
+    }
+}
