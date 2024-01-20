@@ -9,7 +9,6 @@
 }
 
 @media screen and (min-width: 360px) {
-  /* Trocar o formato para listar big card, 3 small cards de cima para baixo */
   /* 360 x 640 mobile */
   .container__menu-title > h1{
     margin-top: 4.5px;
@@ -24,7 +23,6 @@
 }
 
 @media screen and (min-width: 720px) {
-  /* Trocar o formato para listar big card, 3 small cards de cima para baixo */
   /* 720 x 1280 mobile */
   .container__menu-title > h1{
     margin-top: 6px;

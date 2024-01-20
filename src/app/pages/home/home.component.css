@@ -1,9 +1,63 @@
 .container__articles{
-  margin-top: 30px;
-
+  margin-top: 7px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
 }
 
+@media screen and (min-width: 360px) {
+  /* Trocar o formato para listar big card, 3 small cards de cima para baixo */
+  /* 360 x 640 mobile */
+  .container__articles{
+    margin-top: 7.8px;
+  }
 
+  .articles__others{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  /* Trocar o formato para listar big card, 3 small cards de cima para baixo */
+  /* 720 x 1280 mobile */
+  .container__articles{
+    margin-top: 15.7px;
+  }
+
+  .articles__others{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px), (min-height: 576) {
+  /* 768 x 576 */
+  .container__articles{
+    margin-top: 16.8px;
+    flex-direction: row;
+  }
+  .articles__main{
+    height: 500px;
+    width: 350px;
+  }
+
+  .articles__others{
+    width: 418px
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* 1024 x 600 */
+  .container__articles{
+    margin-top: 22.4px;
+  }
+}
+
+@media screen and (min-width: 1366px){
+    /* 1366 x 768 */
+    /* nesse campo repetiremos todos os CSS já existentes */
+    .container__articles{    
+      margin-top: 30px;
+      flex-direction: row;
+    }
+}

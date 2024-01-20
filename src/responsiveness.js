@@ -98,7 +98,7 @@ function convertToProportion(pixelOpcao, pixelTelaVelha, pixelTelaNova){
     valueConverted = (pixelOpcao * pixelTelaNova) / pixelTelaVelha;
     console.log(pixelOpcao + "px é igual a " + valueConverted.toFixed(2) + " proporcionalmente em relação a " + pixelTelaVelha + "px")
 }
-
+/*
 console.log("----------------- CONVERSÃO EM PIXELS -----------------");
 console.log("tela 1366 para tela 1024")
 convertToProportion(15, 1366, 1024);
@@ -129,6 +129,64 @@ convertToProportion(6, 1366, 1024);
 convertToProportion(33, 1366, 1024);
 convertToProportion(8, 1366, 1024);
 convertToProportion(2, 1366, 1024);
+*/
+
+/*
+console.log("----------------- CONVERSÃO EM PIXELS do container__articles -----------------");
+console.log("tela 1366 para tela 1024")
+convertToProportion(30, 1366, 1024);
+
+console.log("* * * * *");
+
+console.log("tela 1024 para tela 768")
+convertToProportion(22.4, 1024, 768);
+
+
+console.log("* * * * *");
+
+console.log("tela 768 para tela 720")
+convertToProportion(16.8, 768, 720);
+
+
+console.log("* * * * *");
+
+console.log("tela 720 para tela 360")
+convertToProportion(15.7, 720, 360);
+*/
+
+console.log("----------------- CONVERSÃO EM PIXELS do big-card -----------------");
+console.log("tela 1366 para tela 1024")
+convertToProportion(20, 1366, 1024);
+convertToProportion(550, 1366, 1024);
+convertToProportion(500, 1366, 1024);
+convertToProportion(15, 1366, 1024);
+convertToProportion(250, 1366, 1024);
+
+console.log("* * * * *");
+
+console.log("tela 1024 para tela 768")
+convertToProportion(14.9, 1366, 1024);
+convertToProportion(412.3, 1366, 1024);
+convertToProportion(374.8, 1366, 1024);
+convertToProportion(11.2, 1366, 1024);
+convertToProportion(187.4, 1366, 1024);
+
+
+console.log("* * * * *");
+
+console.log("tela 768 para tela 720")
+convertToProportion(11.1, 1366, 1024);
+convertToProportion(309, 1366, 1024);
+convertToProportion(280.9, 1366, 1024);
+convertToProportion(8.4, 1366, 1024);
+convertToProportion(140.4, 1366, 1024);
+
+
+console.log("* * * * *");
+
+console.log("tela 720 para tela 360")
+
+
 /*
 
 header: 1366px é igual a 100.00% de 1366px. Que é do layout Principal
