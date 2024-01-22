@@ -3,6 +3,7 @@
 .container__menu-bar > ul{
   display: flex;
   flex-direction: row;
+  font-size: 1.3vw;
 }
 
 .container__menu-bar > ul > li{
