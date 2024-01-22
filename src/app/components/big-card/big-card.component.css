@@ -1,9 +1,5 @@
 .container__big-card{
-  /*
-  width: 400px;
-  height: 500px;
-*/
-width: 80%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 
