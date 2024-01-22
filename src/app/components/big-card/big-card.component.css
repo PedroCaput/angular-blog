@@ -27,3 +27,17 @@ width: 80%;
   width: 100%;
   min-width: 100%;
 }
+
+@media screen and (max-width: 430px) {
+  .container__big-card {
+    align-items: center;
+  }
+
+  .big-card__title > h1  {
+    font-size: 3vw;
+  }
+  
+  .big-card__description{
+    font-size: 2.5vw;
+  }
+}

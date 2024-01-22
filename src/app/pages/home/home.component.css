@@ -31,3 +31,26 @@ app-small-card {
   width: 50%;
   display: block;
 }
+
+@media screen and (max-width: 430px) {
+	.container__articles {
+		display: flex;
+		flex-direction: column;
+    margin-top: 20px;
+}
+
+  app-big-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  .articles__main {
+    width: 100%;
+}
+.articles__others{
+  width: 100%;
+}
+}
