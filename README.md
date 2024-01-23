@@ -5,7 +5,7 @@ Projeto desenvolvido em ![TypeScript](https://img.shields.io/badge/TypeScript-15
 
 ## :fire:Features adicionadas:fire:
 
-Não posso deixar de mensionar algumas peculiaridades sobre o desenvolvimento desse blog, então vamos lá:
+Não posso deixar de mencionar algumas peculiaridades sobre o desenvolvimento desse blog, então vamos lá:
 
 #### RESPONSIVIDADE
 
