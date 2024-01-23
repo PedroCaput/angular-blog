@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import {dataFake} from '../../data/dataFake'
+import { data } from '../../data/data';
 
 @Component({
   selector: 'app-content',
@@ -10,7 +10,7 @@ import {dataFake} from '../../data/dataFake'
 export class ContentComponent implements OnInit {
   photoCover:string = ""
   contentTitle:string = ""
-  contentDescription:string = ""
+  contentDescription:string | undefined = ""
   private id:string | null = "0"
 
   constructor(
@@ -26,10 +26,10 @@ export class ContentComponent implements OnInit {
   }
 
   setValuesToComponent(id:string | null){
-    const result = dataFake.filter(article => article.id == id)[0]
+    const result = data.filter(article => article.id == id)[0]
 
-    this.contentTitle = result.title
-    this.contentDescription = result.description
+    this.contentTitle = result.cardTitle
+    this.contentDescription = result.cardDescription
     this.photoCover = result.photoCover
   }
 
