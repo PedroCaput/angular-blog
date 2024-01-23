@@ -1,27 +1,34 @@
-# AngularBlog
+# Bem vindo ao Blog Pedro Dev!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Projeto desenvolvido em ![TypeScript](https://img.shields.io/badge/TypeScript-1572B6?style=flat&logo=typescript&logoColor=white), ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black), ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white), ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) e ![ANGULAR](https://img.shields.io/badge/Angular-E34F26?style=flat&logo=angular&logoColor=white). 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## :fire:Features adicionadas:fire:
 
-## Code scaffolding
+Não posso deixar de mensionar algumas peculiaridades sobre o desenvolvimento desse blog, então vamos lá:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### RESPONSIVIDADE
 
-## Build
+Todo o blog se encontra responsivo de forma que sua renderização se adapte à qualquer tamanho de tela.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+E mais, o layout passa por modificações para atender os acessos via mobile.
 
-## Running unit tests
+Foi utilizada a técnica de media query (mobile first). 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### FUNÇÃO DE COLETA DE NOVAS TAGS
 
-## Running end-to-end tests
+Não é nada prático trabalhar com componentes e termos que atualizar o conteúdo do site em cada página, não é mesmo?
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Tendo isso em mente, foi desenvolvida uma função que capta novas tags (que aumentarão o tamanho do blog) ou então a atualização das tags já existentes, para gerar dados a que serão apresentados ao clicar em cada título.
 
-## Further help
+É o mínimo que poderíamos esperar, não é mesmo?
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### CONTEÚDO
+
+Todo o conteúdo apresentado foi atualizado até o dia 23 de janeiro de 2024
+
+#### SUGESTÃO
+
+Possui alguma sugestão em mente? Por favor, não deixe de entrar em contato através de alguma das redes sociais presentes nesse projeto.
+
+Um abraço, tchau tchau.
